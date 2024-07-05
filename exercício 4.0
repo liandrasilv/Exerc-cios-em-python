@@ -1,0 +1,10 @@
+usuario_correto = "taylor"
+senha_correta = "taylor123"
+
+usuario = int(input('Digite o nome de usuário: '))
+senha = int(input('Digite a senha'))
+
+if usuario == usuario_correto and senha == senha_correta:
+    print('Login bem sucedido!')
+else:
+    print('Login inválido. Tente novamente.')
